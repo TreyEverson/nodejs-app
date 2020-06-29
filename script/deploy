@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd ~/node-app
+git pull
+pm2 restart all
