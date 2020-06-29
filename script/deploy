@@ -4,6 +4,7 @@ ssh ubuntu@192.168.4.92 <<EOF
  git pull
  pwd
  sudo su - ubuntu
+ sudo apt install npm
  npm install - production
  pm2 restart all
  exit
