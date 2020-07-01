@@ -4,12 +4,10 @@
    "version": "0.0.1",
    "private": true,
    "dependencies": {
-      "-": "0.0.1",
-      "express": "4.17.1",
-      "production": "0.0.2"
+      "express": "4.17.1"
    },
    "devDependencies": {
-      "mocha": "8.0.1",
+      "mocha": "7.1.0",
       "supertest": "4.0.2"
    }
 }
