@@ -3,10 +3,7 @@ ssh ubuntu@192.168.4.92 <<EOF
  cd ~/nodejs-app
  git pull
  pwd
- sudo su - ubuntu
- cd nodejs-app
  npm install
- npm install - production
  pm2 restart all
  exit
 EOF
