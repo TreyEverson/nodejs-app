@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh ubuntu@192.168.4.92 <<EOF
+ssh ubuntu@192.168.4.93 <<EOF
  cd ~/nodejs-app
  git pull
  pwd
