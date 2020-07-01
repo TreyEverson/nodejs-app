@@ -4,6 +4,6 @@ ssh ubuntu@192.168.4.93 <<EOF
  git pull
  pwd
  npm install
- pm2 restart all
+ pm2 start index.js
  exit
 EOF
