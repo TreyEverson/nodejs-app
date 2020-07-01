@@ -6,5 +6,6 @@ ssh ubuntu@192.168.4.93 <<EOF
  pwd
  npm install
  pm2 start index.js
+ pwd
  exit
 EOF
