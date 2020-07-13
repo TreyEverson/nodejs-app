@@ -2,7 +2,7 @@
 echo '********** BEGINING PIPELINE **********'
 echo '********** SSH INTO KUBEVIRT VM **********'
 # ssh ubuntu@192.168.252.146 <<EOF
-ssh ubuntu@10.96.224.146 <<EOF
+ssh ubuntu@10.103.208.107 <<EOF
  echo '********** SSH SUCESSFUL **********'
  cd ~/nodejs-app
  # whoami
